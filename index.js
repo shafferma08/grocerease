@@ -6,7 +6,7 @@ import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 
 dotenv.config();
-
+// comment change
 const SPOONACULAR_API_KEY = process.env.SPOONACULAR_API_KEY;
 const SPOONACULAR_API_URL = 'https://api.spoonacular.com/recipes/findByIngredients';
 
